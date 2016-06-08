@@ -17,9 +17,6 @@ int TGeneticAlg::run()
 	randomize();
 	int result = 0;
 	len = input.length();
-	// коэфф мутации редко превышает 1%
-	// обычно выбирают 1/len или 1/OFFSPRINGS_MAX
-//	coefMutation = 9; //1/len;
 	// начальна€ попул€ци€
 	initPopulation();
 
